@@ -39,7 +39,7 @@
     optTitleSelector = '.post-title',
     optTitleListSelector = '.titles';
 
-  function generateTitleLinks() {
+  const generateTitleLinks = function () {
     console.log('function is runnning');
 
     /* remove contents of titleList */
@@ -80,6 +80,6 @@
     for (let link of links) {
       link.addEventListener('click', titleClickHandler);
     }
-  }
+  };
   generateTitleLinks();
 }
