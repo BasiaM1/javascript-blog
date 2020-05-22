@@ -5,9 +5,12 @@
 $color-light: #fff;
 $color-dark: #444;
 
-$font-logo: "Sacramento", cursive;
-$font-header: "Oswald", sans-serif;
-$font-text: "Source Sans Pro", sans-serif;
+$font-logo: "Sacramento",
+cursive;
+$font-header: "Oswald",
+sans-serif;
+$font-text: "Source Sans Pro",
+sans-serif;
 
 /* Global */
 
@@ -123,5 +126,46 @@ body {
 
   p {
     margin: 0 10px 0 0;
+  }
+}
+
+/* Tags cloud */
+.tag-size-1 {
+  font-size: 80%;
+  color: rgba(0, 0, 128, 0.1);
+}
+
+.tag-size-2 {
+  font-size: 100%;
+  color: rgba(0, 0, 128, 0.2);
+
+}
+
+.tag-size-3 {
+  font-size: 125%;
+  color: rgba(0, 0, 128, 0.4);
+}
+
+.tag-size-4 {
+  font-size: 150%;
+  color: rgba(0, 0, 128, 0.6);
+}
+
+.tag-size-5 {
+  font-size: 175%;
+  color: rgba(0, 0, 128, 0.8);
+}
+
+.tag-size-6 {
+  font-size: 200%;
+  color: rgba(0, 0, 128, 1);
+  ;
+}
+
+
+.list.tags {
+  li {
+    display: inline-block;
+    margin: 5px;
   }
 }
